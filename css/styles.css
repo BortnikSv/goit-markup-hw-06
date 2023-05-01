@@ -1034,6 +1034,11 @@ align-items: baseline;
         transition: var(--trans-hover);
     }
 
+    .modal-form-agreement-box:focus ~ .modal-form-agreement-icon {
+        border: 2px solid var(--main-hover-color);
+        border-radius: 4px;
+    }
+
     .modal-form-agreement-icon-unchecked {
         opacity: 1;
         transition: var(--trans-hover);
@@ -1056,5 +1061,5 @@ align-items: baseline;
         color: var(--accent-color);
     }
 
-    
+
 
