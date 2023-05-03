@@ -983,6 +983,8 @@ img {
         top: 50%;
         left: 16px;
 
+        fill: #2e2f42;
+
         transform: translateY(-50%);
     }
 
